@@ -38,7 +38,7 @@ def set_realesrgan():
         scale=2,
         model_path="https://github.com/sczhou/CodeFormer/releases/download/v0.1.0/RealESRGAN_x2plus.pth",
         model=model,
-        tile=args.bg_tile,
+        tile=400,
         tile_pad=40,
         pre_pad=0,
         half=use_half
